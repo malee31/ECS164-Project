@@ -7,4 +7,5 @@
 /* TODO: Temporary. Remove once pages are separated */
 #root > main {
 	border: 2px solid red;
+	position: relative;
 }
