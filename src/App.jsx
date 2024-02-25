@@ -4,12 +4,10 @@ import Home from "./sections/home/Home.jsx";
 import Overview from "./sections/overview/Overview.jsx";
 import Steps from "./sections/steps/Steps.jsx";
 import Cooking from "./sections/cooking/Cooking.jsx";
-import Navbar from "./sections/navbar/Navbar.jsx";
 
 function App() {
 	return (
 		<Router>
-			<Navbar/>
 			<Routes>
 				<Route index={true} path="/" element={<Home/>}/>
 				<Route path="/home" element={<Home/>}/>
