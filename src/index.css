@@ -14,6 +14,15 @@
 	box-sizing: border-box;
 }
 
+html {
+	--view-ingredients-bg: #F093BA;
+	--view-timeline-bg: #9DCF90;
+	--view-steps-bg: #C4B6FF;
+	--disabled-text-gray: #878282;
+	--navbar-brown-bg: #F1E9D5;
+	--sub-navbar-brown-bg: #D4C397;
+}
+
 body {
 	margin: 0;
 	width: 100%;
