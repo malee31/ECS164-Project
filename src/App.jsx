@@ -1,8 +1,8 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./sections/home/Home.jsx";
-import Overview from "./sections/overview/Overview.jsx";
 import Steps from "./sections/steps/Steps.jsx";
+import Overview from "./sections/overview/Overview.jsx";
 import Cooking from "./sections/cooking/Cooking.jsx";
 
 function App() {
