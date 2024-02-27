@@ -8,10 +8,10 @@ import clockIcon from "../../assets/icons/Clock.svg";
 export default function Navbar() {
 	return (
 		<nav className="sticky top-0 flex flex-col items-center w-full pt-2 bg-[var(--navbar-brown-bg)]">
-			<div className="w-full px-4 flex flex-row items-center justify-between">
+			<div className="w-full px-4 grid grid-cols-3 items-center justify-between justify-items-center">
 				<Link
 					to="/"
-					className="inline-block"
+					className="inline-block justify-self-start"
 				>
 					<img
 						alt="Home"

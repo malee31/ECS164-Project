@@ -25,7 +25,7 @@ export default function Home() {
 		<main>
 			<Filterbar/>
 
-			<section className="w-full px-4 py-4 grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-items-center">
+			<section className="w-full px-12 py-4 grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-items-center">
 				<RecipeCard/>
 				<RecipeCard/>
 				<RecipeCard/>
