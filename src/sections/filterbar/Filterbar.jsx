@@ -1,4 +1,5 @@
 import "./filterbar.css";
+import MagnifyingIcon from "../../assets/icons/MagnifyingGlass.svg";
 
 export default function Filterbar() {
 	return (
@@ -41,6 +42,14 @@ export default function Filterbar() {
 						defaultValue="All"
 					/>
 				</label>
+
+				{/* TODO: Unhide and Implement later */}
+				<button className="w-12 h-12 p-3 bg-white cursor-not-allowed hidden">
+					<img
+						alt="Search"
+						src={MagnifyingIcon}
+					/>
+				</button>
 			</div>
 		</nav>
 	)
