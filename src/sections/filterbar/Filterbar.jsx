@@ -18,29 +18,42 @@ export default function Filterbar() {
 
 				<label className="relative min-w-32 px-2 pt-4 bg-white">
 					<span className="absolute top-0 left-2">Difficulty</span>
-					<input
-						type="text"
+					<select
 						className="py-2 text-lg"
 						defaultValue="Any"
-					/>
+					>
+						<option value="Any">Any</option>
+						<option value="Simple">Simple</option>
+						<option value="Moderate">Moderate</option>
+						<option value="Experienced">Experienced</option>
+					</select>
 				</label>
 
 				<label className="relative min-w-32 px-2 pt-4 bg-white">
 					<span className="absolute top-0 left-2">Duration</span>
-					<input
-						type="text"
+					<select
 						className="py-2 text-lg"
 						defaultValue="30 Minutes"
-					/>
+					>
+						<option value="30 Minutes">&lt; 30 Minutes</option>
+						<option value="< 1 Hour">&lt; 1 Hour</option>
+						<option value="< 10 Hours">&lt; 10 Hours</option>
+						<option value="All">All</option>
+					</select>
 				</label>
 
 				<label className="relative min-w-32 px-2 pt-4 bg-white">
 					<span className="absolute top-0 left-2">Cuisine</span>
-					<input
-						type="text"
+					<select
 						className="py-2 text-lg"
 						defaultValue="All"
-					/>
+					>
+						<option value="All">All</option>
+						<option value="Italian">Italian</option>
+						<option value="American">American</option>
+						<option value="Asian">Asian</option>
+						<option value="Uncategorized">Uncategorized</option>
+					</select>
 				</label>
 
 				{/* TODO: Unhide and Implement later */}
