@@ -1,5 +1,5 @@
 import "./home.css";
-import Filterbar from "../filterbar/Filterbar.jsx";
+import Filterbar from "../components/filterbar/Filterbar.jsx";
 import { Link } from "react-router-dom";
 
 function RecipeCard() {

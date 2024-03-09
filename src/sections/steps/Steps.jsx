@@ -1,12 +1,14 @@
 import "./steps.css";
-import Navbar from "../navbar/Navbar.jsx";
+import Navbar from "../components/navbar/Navbar.jsx";
 import RecipeOverview from "../components/RecipeOverview.jsx";
-import CheckBoxLI from "../components/CheckBoxLI.jsx";
+import Bottombar from "../components/bottombar/Bottombar.jsx";
 
 export default function Steps() {
 	return (
-		<main>
+		<>
+
 			<Navbar/>
+			<main>
 
 			<div className="px-6 py-3 pb-16">
 				<RecipeOverview/>
@@ -38,5 +40,7 @@ export default function Steps() {
 				</div>
 			</div>
 		</main>
+			<Bottombar/>
+		</>
 	)
 }

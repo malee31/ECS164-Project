@@ -1,5 +1,5 @@
 import "./filterbar.css";
-import MagnifyingIcon from "../../assets/icons/MagnifyingGlass.svg";
+import MagnifyingIcon from "../../../assets/icons/MagnifyingGlass.svg";
 
 export default function Filterbar() {
 	return (

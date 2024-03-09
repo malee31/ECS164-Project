@@ -8,6 +8,7 @@
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	height: 100%;
 }
 
 * {
@@ -21,9 +22,11 @@ html {
 	--disabled-text-gray: #878282;
 	--navbar-brown-bg: #F1E9D5;
 	--sub-navbar-brown-bg: #D4C397;
+	height: 100%;
 }
 
 body {
 	margin: 0;
 	width: 100%;
+	height: 100%;
 }
