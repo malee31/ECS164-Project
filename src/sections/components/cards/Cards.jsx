@@ -41,7 +41,7 @@ export default function Cards() {
 							href="#next"
 						>
 						<span className="text-xl">
-							Complete >
+							Complete &gt;
 						</span>
 						</a>
 					</div>
