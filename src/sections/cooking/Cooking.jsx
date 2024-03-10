@@ -2,6 +2,7 @@ import "./cooking.css";
 import Navbar from "../components/navbar/Navbar.jsx";
 import Bottombar from "../components/bottombar/Bottombar.jsx";
 import Timeline from "../components/timeline/Timeline.jsx";
+import Cards from "../components/cards/Cards.jsx";
 
 export default function Cooking() {
 	return (
@@ -18,6 +19,8 @@ export default function Cooking() {
 				</h1>
 
 				<Timeline/>
+
+				<Cards/>
 			</main>
 			<Bottombar/>
 		</>
