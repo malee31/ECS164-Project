@@ -1,7 +1,8 @@
 import TickMarker from "./TickMarker.jsx";
 import TimelineBlock from "./TimelineBlock.jsx";
+import PropTypes from "prop-types";
 
-export default function Timeline() {
+export default function Timeline({ setShowCards }) {
 	return (
 		<div className="w-full px-8">
 			<div className="w-full bg-slate-200 pb-2 scrollbar-hidden overflow-x-auto">
@@ -18,6 +19,7 @@ export default function Timeline() {
 					<TimelineBlock
 						className="row-start-2 col-start-1 col-span-3	 bg-pink-300"
 						link="#"
+						onClick={() => setShowCards(true)}
 					>
 						Boil Potatoes
 					</TimelineBlock>
@@ -51,3 +53,7 @@ export default function Timeline() {
 		</div>
 	)
 }
+
+Timeline.propTypes = {
+	setShowCards: PropTypes.func
+};

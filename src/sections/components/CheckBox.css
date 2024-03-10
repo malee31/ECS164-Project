@@ -1,0 +1,11 @@
+.li-check-box:checked + span {
+	/*@apply bg-green-500;*/
+}
+
+.li-check-box + span .check-icon {
+	visibility: hidden;
+}
+
+.li-check-box:checked + span .check-icon {
+	visibility: visible;
+}
