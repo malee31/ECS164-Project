@@ -16,17 +16,35 @@ export default function Timeline() {
 					<TickMarker label="145" labelEnd="End"/>
 
 					<TimelineBlock
-						className="row-start-2 col-span-2 bg-purple-400"
-						link="#"
-					>
-						Cut Potatoes
-					</TimelineBlock>
-
-					<TimelineBlock
-						className="row-start-3 col-start-3 col-span-2 bg-purple-400"
+						className="row-start-2 col-start-1 col-span-3	 bg-pink-300"
 						link="#"
 					>
 						Boil Potatoes
+					</TimelineBlock>
+					<TimelineBlock
+						className="ml-1 row-start-2 col-start-4 col-span-1 bg-pink-300"
+						link="#"
+					>
+						Strain
+					</TimelineBlock>
+					<TimelineBlock
+						className="ml-2 row-start-2 col-start-5 col-span-2 bg-pink-300"
+						link="#"
+					>
+						Mash Potatoes
+					</TimelineBlock>
+
+					<TimelineBlock
+						className="row-start-3 col-start-2 col-span-2 bg-green-400"
+						link="#"
+					>
+						Season Steak
+					</TimelineBlock>
+					<TimelineBlock
+						className="ml-1 row-start-3 col-start-4 col-span-3 bg-green-400"
+						link="#"
+					>
+						Sear Steak
 					</TimelineBlock>
 				</section>
 			</div>

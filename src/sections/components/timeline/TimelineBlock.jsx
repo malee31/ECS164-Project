@@ -8,12 +8,12 @@ export default function TimelineBlock({ className = "", children, link }) {
 			href={link}
 		>
 			<span>{children}</span>
-			<span className="h-full pt-2 pl-1 pr-0.5 aspect-square absolute bottom-0 right-0">
-			<img
-				className="h-full"
-				src={OpenArrow}
-				alt="Open"
-			/>
+			<span className="w-5 h-5 absolute bottom-0.5 right-0.5">
+				<img
+					className="h-full"
+					src={OpenArrow}
+					alt="Open"
+				/>
 			</span>
 		</a>
 	);
