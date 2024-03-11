@@ -1,5 +1,6 @@
 # Custom ignores
 private/
+dev-dist/
 
 # Logs
 logs
