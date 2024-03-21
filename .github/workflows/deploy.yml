@@ -1,0 +1,31 @@
+name: Build and Deploy Vite
+on:
+   push:
+      branches: [ master ]
+   workflow_dispatch:
+
+jobs:
+   build:
+      runs-on: ubuntu-latest
+      steps:
+         -  uses: actions/checkout@v3
+
+         -  name: Setup Node
+            uses: actions/setup-node@v3
+            with:
+               node-version: 20
+
+         -  name: Install dependencies
+            run: npm install
+
+         -  name: Build Vite App
+            run: npm run build
+
+         -  name: Index is 404
+            run: cp dist/index.html dist/404.html
+
+         -  name: Deploy to GitHub Pages
+            uses: JamesIves/github-pages-deploy-action@v4.4.3
+            with:
+               branch: gh-pages
+               folder: dist
